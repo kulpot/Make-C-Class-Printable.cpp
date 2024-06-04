@@ -10,5 +10,7 @@ int main() {
 	bool b = false;
 	std::string str = "C++";
 
+	std::cout << x;
+
 	return 0;
 }
