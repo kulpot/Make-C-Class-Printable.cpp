@@ -1,5 +1,10 @@
 #pragma once
+
 class Rectangle
 {
+public:
+	Rectangle(int width, int height);
+	int getWidth() const;
+	int getHeight() const;
 };
 
