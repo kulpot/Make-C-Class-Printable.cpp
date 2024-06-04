@@ -14,6 +14,7 @@ int main() {
 	std::cout << x << ' ' << y << ' ' << b << ' ' << str << '\n';
 
 	Rectangle rect{ 100, 25 };
+	std::cout << rect << '\n';
 
 	return 0;
 }
