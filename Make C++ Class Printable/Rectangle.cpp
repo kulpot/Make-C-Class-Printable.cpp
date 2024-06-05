@@ -12,5 +12,5 @@ int Rectangle::getWidth() const
 
 int Rectangle::getHeight() const
 {
-
+	return mHeight;
 }
