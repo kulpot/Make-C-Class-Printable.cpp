@@ -7,5 +7,5 @@ Rectangle::Rectangle(int width, int height) {
 
 int Rectangle::getWidth() const
 {
-
+	return mWidth;
 }
