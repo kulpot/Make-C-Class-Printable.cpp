@@ -9,3 +9,8 @@ int Rectangle::getWidth() const
 {
 	return mWidth;
 }
+
+int Rectangle::getHeight() const
+{
+
+}
