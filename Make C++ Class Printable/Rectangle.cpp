@@ -16,5 +16,5 @@ int Rectangle::getHeight() const
 }
 
 std::ostream& operator<<(std::ostream& os, const Rectangle& rect) {
-	os << "Rect(w: " << rect.getWidth() << ", h: " << rect.getHeight() << ")";
+	return os << "Rect(w: " << rect.getWidth() << ", h: " << rect.getHeight() << ")";
 }
