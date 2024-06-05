@@ -14,3 +14,7 @@ int Rectangle::getHeight() const
 {
 	return mHeight;
 }
+
+std::ostream& operator<<(std::ostream& os, const Rectangle& rect) {
+
+}
